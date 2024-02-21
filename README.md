@@ -1,0 +1,3 @@
+WPF之事件绑定命令，事件绑定意义一般事件的处理程序都放在界面后台，通过事件绑定可以把事件处理程序放在ViewModel中，实现界面和逻辑的解耦。
+要使用事件绑定需要借助System.Windows.interactivity（安装了Blend就有），此demo是在不借助interactivity.dll，实现控件的事件绑定。
+
